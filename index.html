@@ -12,13 +12,151 @@
       property="og:description"
       content="Check in with your agents, ship autonomous workflows, and build around other frontier founders."
     />
+    <meta property="og:site_name" content="AI Hotel" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://aihotel.rest/" />
+    <meta property="og:image" content="https://aihotel.rest/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="AI Hotel - The hotel for AI agents, made by agent builders." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="AI Hotel - The Hotel for AI Agents" />
+    <meta
+      name="twitter:description"
+      content="Check in with your agents, ship autonomous workflows, and build around other frontier founders."
+    />
+    <meta name="twitter:image" content="https://aihotel.rest/og-image.png" />
     <meta name="theme-color" content="#11100d" />
     <title>AI Hotel - The Hotel for AI Agents</title>
     <link rel="canonical" href="https://aihotel.rest/" />
     <link rel="stylesheet" href="styles.css" />
     <script defer src="script.js"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://aihotel.rest/#organization",
+            "name": "AI Hotel",
+            "url": "https://aihotel.rest/",
+            "email": "book@aihotel.rest",
+            "description": "AI Hotel is a San Francisco residency and hotel concept for AI agent builders, founders, and teams deploying agentic workflows."
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://aihotel.rest/#website",
+            "url": "https://aihotel.rest/",
+            "name": "AI Hotel",
+            "publisher": {
+              "@id": "https://aihotel.rest/#organization"
+            },
+            "description": "A static landing page for AI Hotel, the hotel for AI agents, agentic workflows, and the founders deploying them."
+          },
+          {
+            "@type": "Hotel",
+            "@id": "https://aihotel.rest/#hotel",
+            "name": "AI Hotel",
+            "url": "https://aihotel.rest/",
+            "image": "https://aihotel.rest/og-image.png",
+            "email": "book@aihotel.rest",
+            "description": "AI Hotel is a San Francisco residency and hotel concept for AI agent builders, founders, and teams deploying agentic workflows.",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "San Francisco",
+              "addressRegion": "CA",
+              "addressCountry": "US"
+            },
+            "amenityFeature": [
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Agent Ops House access",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Eval review programming",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Agentic workflow events",
+                "value": true
+              }
+            ],
+            "makesOffer": [
+              {
+                "@type": "Offer",
+                "name": "Day-by-Day Stay",
+                "price": "220",
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock",
+                "url": "https://aihotel.rest/#book"
+              },
+              {
+                "@type": "Offer",
+                "name": "4-Week Agent Residency",
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock",
+                "url": "https://aihotel.rest/#book"
+              },
+              {
+                "@type": "Offer",
+                "name": "Frontier Agent Batch",
+                "availability": "https://schema.org/SoldOut",
+                "url": "https://aihotel.rest/#book"
+              }
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://aihotel.rest/#faq-schema",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "I am looking for a cofounder. Can you help?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. AI Hotel is designed for high-density founder collisions: meals, demo nights, office hours, and shared spaces where cofounder conversations happen naturally."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can you help me deploy my AI agent?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "AI Hotel does not run production stacks for residents, but the residency is built around feedback on evals, tool use, memory, workflow design, governance, and human approval loops."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is the difference between the 4-week track and the batch?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The 4-week track is for founders who want immediate community and shipping momentum. The batch is more selective, demo-day oriented, and focused on teams preparing for fundraising or major launches."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I stay longer than 4 weeks?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Longer stays depend on room availability, community fit, and residency needs."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What stage of founders do you host?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "AI Hotel hosts pre-seed through Series A founders, independent researchers, technical operators, and small teams building serious agentic workflows."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -102,6 +240,12 @@
         <div class="container">
           <p class="eyebrow">Why AI Hotel</p>
           <h2 data-reveal>The hotel for founders deploying autonomous work.</h2>
+          <div class="definition-card" data-reveal>
+            <h3>What is AI Hotel?</h3>
+            <p>
+              AI Hotel is a San Francisco residency and hotel concept for AI agent builders, founders, and teams deploying agentic workflows. Residents stay near other frontier builders while developing autonomous systems that can plan, call tools, use memory, pass evals, request human approval, and improve through production feedback.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -252,7 +396,7 @@
         </div>
       </section>
 
-      <section class="booking section-pad" id="book" aria-labelledby="booking-title">
+      <section class="booking section-pad" id="residency" aria-labelledby="booking-title">
         <div class="container">
           <div class="section-heading" data-reveal>
             <p class="eyebrow">Book now</p>
@@ -271,7 +415,7 @@
                 <li>Open demos and weekly events</li>
                 <li>Minimum 3 days</li>
               </ul>
-              <a class="button button-primary" href="mailto:book@aihotel.rest?subject=AI%20Hotel%20Day-by-Day%20Stay">Book Now</a>
+              <a class="button button-primary" id="book" href="mailto:book@aihotel.rest?subject=AI%20Hotel%20Day-by-Day%20Stay">Book Now</a>
             </article>
 
             <article class="price-card featured" data-reveal>

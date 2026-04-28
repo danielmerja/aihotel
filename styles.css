@@ -523,6 +523,33 @@ p {
   max-width: 1040px;
 }
 
+.definition-card {
+  max-width: 860px;
+  margin-top: 38px;
+  padding: 28px;
+  border: 1px solid rgba(216, 168, 91, 0.28);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(135deg, rgba(216, 168, 91, 0.12), rgba(255, 255, 255, 0.025)),
+    rgba(255, 255, 255, 0.03);
+  box-shadow: var(--shadow);
+}
+
+.definition-card h3 {
+  font-family: var(--mono);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.definition-card p {
+  margin: 16px 0 0;
+  color: var(--ink);
+  font-size: 1.08rem;
+}
+
 .chapter {
   border-top: 1px solid var(--line);
 }

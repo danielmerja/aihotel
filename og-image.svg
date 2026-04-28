@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">AI Hotel</title>
+  <desc id="desc">The hotel for AI agents, made by agent builders.</desc>
+  <defs>
+    <radialGradient id="goldGlow" cx="70%" cy="32%" r="42%">
+      <stop offset="0%" stop-color="#f6d79d" stop-opacity="0.8"/>
+      <stop offset="32%" stop-color="#d8a85b" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#11100d" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="backdrop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#11100d"/>
+      <stop offset="48%" stop-color="#282017"/>
+      <stop offset="100%" stop-color="#090806"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3a2b1a"/>
+      <stop offset="55%" stop-color="#15120d"/>
+      <stop offset="100%" stop-color="#2b1d18"/>
+    </linearGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M 64 0 L 0 0 0 64" fill="none" stroke="#f6efe2" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#backdrop)"/>
+  <rect width="1200" height="630" fill="url(#grid)" opacity="0.8"/>
+  <rect width="1200" height="630" fill="url(#goldGlow)"/>
+  <circle cx="1010" cy="120" r="250" fill="#8ca7bd" opacity="0.08"/>
+  <circle cx="165" cy="500" r="260" fill="#d8a85b" opacity="0.08"/>
+
+  <g transform="translate(760 88) rotate(-7)">
+    <rect x="0" y="0" width="360" height="430" rx="34" fill="url(#card)" stroke="#f6efe2" stroke-opacity="0.16"/>
+    <rect x="42" y="52" width="276" height="238" rx="24" fill="#090806" opacity="0.42" stroke="#d8a85b" stroke-opacity="0.26"/>
+    <path d="M180 52 V290 M42 171 H318" stroke="#d8a85b" stroke-opacity="0.18" stroke-width="2"/>
+    <circle cx="260" cy="105" r="58" fill="#d8a85b" opacity="0.92"/>
+    <circle cx="260" cy="105" r="108" fill="#d8a85b" opacity="0.12"/>
+    <rect x="56" y="318" width="248" height="72" rx="18" fill="#090806" opacity="0.72" stroke="#f6efe2" stroke-opacity="0.14"/>
+    <text x="78" y="348" fill="#d8a85b" font-family="Menlo, Consolas, monospace" font-size="16" font-weight="700" letter-spacing="2">AGENT.CONCIERGE</text>
+    <text x="78" y="373" fill="#f6efe2" font-family="Georgia, serif" font-size="24">workflow checked in</text>
+  </g>
+
+  <g transform="translate(72 70)">
+    <rect x="0" y="0" width="74" height="74" rx="37" fill="#d8a85b"/>
+    <text x="37" y="47" text-anchor="middle" fill="#14110c" font-family="Menlo, Consolas, monospace" font-size="24" font-weight="800">AI</text>
+    <text x="94" y="48" fill="#f6efe2" font-family="Georgia, serif" font-size="40">Hotel</text>
+  </g>
+
+  <g transform="translate(72 205)">
+    <text x="0" y="0" fill="#d8a85b" font-family="Menlo, Consolas, monospace" font-size="18" font-weight="800" letter-spacing="4">SAN FRANCISCO RESIDENCY FOR AGENT BUILDERS</text>
+    <text x="0" y="100" fill="#f6efe2" font-family="Georgia, serif" font-size="92" letter-spacing="-5">The hotel for</text>
+    <text x="0" y="196" fill="#f6efe2" font-family="Georgia, serif" font-size="92" letter-spacing="-5">AI agents.</text>
+    <text x="0" y="268" fill="#c6bba8" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="30">Made by agent builders deploying autonomous workflows.</text>
+  </g>
+
+  <g transform="translate(72 548)">
+    <rect x="0" y="0" width="170" height="44" rx="22" fill="#d8a85b"/>
+    <text x="85" y="29" text-anchor="middle" fill="#14110c" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="17" font-weight="800">Book Now</text>
+    <text x="194" y="29" fill="#8e8374" font-family="Menlo, Consolas, monospace" font-size="16">aihotel.rest</text>
+  </g>
+</svg>
