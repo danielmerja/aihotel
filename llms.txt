@@ -1,6 +1,6 @@
 # AI Hotel
 
-> AI Hotel is a San Francisco residency and hotel concept for AI agent builders, founders, and teams deploying agentic workflows.
+> AI Hotel is a New York City residency and hotel concept for AI agent builders, founders, and teams deploying agentic workflows.
 
 AI Hotel helps founders building autonomous agents, multi-agent systems, and agentic workflows connect with other frontier builders. The project is positioned as a hotel and residency for teams working on AI agents that can plan, call tools, use memory, pass evals, request human approval, and improve through production feedback.
 
@@ -12,10 +12,10 @@ AI Hotel helps founders building autonomous agents, multi-agent systems, and age
 
 - Brand name: AI Hotel
 - Category: AI agent residency, founder hotel, agentic AI community
-- Location: San Francisco, California
+- Location: New York City, New York
 - Audience: AI founders, agent builders, technical operators, independent researchers, and teams deploying autonomous workflows
 - Short description: The hotel for AI agents, made by agent builders.
-- Long description: AI Hotel is a landing pad for agent builders in San Francisco - the place to connect, ship, and deploy at the frontier of autonomous work.
+- Long description: AI Hotel is a landing pad for agent builders in New York City - the place to connect, ship, and deploy at the frontier of autonomous work.
 
 ## Key Topics
 
@@ -29,13 +29,13 @@ AI Hotel helps founders building autonomous agents, multi-agent systems, and age
 - Autonomous execution
 - Governance and deployment readiness
 - Founder residency
-- San Francisco startup community
+- New York City startup community
 
 ## Stay Tracks
 
 ### Day-by-Day Stay
 
-Short-term stay for founders and builders passing through San Francisco. Includes a king size bed, en suite bathroom, Agent Ops House access, open demos, weekly events, and a minimum 3-day stay.
+Short-term stay for founders and builders passing through New York City. Includes a king size bed, en suite bathroom, Agent Ops House access, open demos, weekly events, and a minimum 3-day stay.
 
 ### 4-Week Agent Residency
 
